@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <title>
+        FAQ-Bot für #WirLernenOnline
+    </title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Page styles - make your own! -->
+    <link rel="stylesheet" href="main.css">
+
+    <!-- Peekobot custom properties (CSS variable) - set these! -->
+    <style>
+        :root {
+            --peekobot-height: 80vh;
+            --peekobot-avatar: url('https://cdn.glitch.com/56738653-813c-443b-b8b5-d33c5b4b99a5%2Fkooperationen-hands-icon-240x240.png?v=1594630053103');
+        }
+    </style>
+    <!-- Peekobot styles -->
+    <link rel="stylesheet" href="peekobot.css">
+    
+    <!-- These provide in-browser transpilation of ES6 JS code to ES5 to support IE11 -->
+    <script src="polyfill.min.js"></script>
+    <script src="babel.min.js"></script>
+</head>
+
+<body>
+        <div id="peekobot-container">
+            <div id="peekobot"></div>
+        </div>
+
+
+    <script src="wlo-chat.js"></script>
+    <script type="text/babel" data-presets="es2015,es2016,es2017" src="peekobot.js"></script>
+
+
+</body>
+
+</html>
